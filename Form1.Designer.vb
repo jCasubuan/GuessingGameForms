@@ -114,7 +114,9 @@ Partial Class Form1
         Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.lblUsername)
         Me.Controls.Add(Me.hdrLogin)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Location = New System.Drawing.Point(21, 27)
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
